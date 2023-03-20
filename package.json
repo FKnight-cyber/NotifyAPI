@@ -1,0 +1,23 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@prisma/client": "^4.6.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "prisma": "^4.6.1",
+    "tsx": "^3.12.5",
+    "typescript": "^5.0.2"
+  }
+}
